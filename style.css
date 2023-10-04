@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+input {
+    width: 100px;
+}
+
+.page-link {
+    background-color: #dc3545;
+    color: beige;
+    border-color: black;
+}

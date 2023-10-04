@@ -5,24 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>restaurant-css-framework</title>
 </head>
 <body>
-    <div class="row">
-        <div class="col-xs-12 col-md-3" style="border: 1px solid black"><a href="menu.html"><h1>Menu</h1></a></div>
-        <div class="col-xs-12 col-md-3" style="border: 1px solid black"><a href="pictures.html"><h1>Photos</h1></a></div>
-        <div class="col-xs-12 col-md-3" style="border: 1px solid black"><a href="restaurant.html"><h1>Restaurant</h1></a></div>
-        <div class="col-xs-12 col-md-3" style="border: 1px solid black"><a href="contact.html"><h1>Contact</h1></a></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" href="index.html">
+      <img src="https://cdn.pixabay.com/photo/2017/11/04/02/27/noodle-2916300_1280.jpg" width="50" height="50" alt=""> Le Lotus Royal
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photo1.html">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="restaurant.html">Restaurant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
+  </nav>
     <div class="jumbotron">
+      <div class="p-5 text-center bg-image rounded-3" style="background-image: url('https://cdn.pixabay.com/photo/2015/12/12/21/12/dining-table-1090128_1280.jpg'); height: 100%;">
         <h1 class="display-4">Le Lotus Royal</h1>
         <p class="lead">Le Lotus Royal" est bien plus qu'un simple restaurant thaïlandais à Bruxelles, c'est une expérience culinaire d'exception qui vous transporte dans l'univers envoûtant de la royauté thaïlandaise. Niché dans le cœur de la ville, notre établissement vous invite à découvrir l'élégance, la grâce et la riche tradition de la cuisine thaïlandaise.</p>
         <hr class="my-4">
         <p>Que vous veniez pour un dîner romantique, une célébration spéciale ou simplement pour explorer les délices de la cuisine thaïlandaise, "Le Lotus Royal" est l'endroit où la royauté et la gastronomie se rencontrent pour créer des souvenirs mémorables à chaque bouchée. Venez nous rejoindre pour une expérience culinaire exceptionnelle qui vous fera sentir comme un membre de la famille royale thaïlandaise.</p>
       </div>
-    <div class="row">
-        <div class="col-xs-12 col-md-6" style="border: 1px solid black">
+    </div>  
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-10 col-md-5" style="border: 1px solid black">
             <div class="panel panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title">Evenement</h3>
@@ -36,21 +58,25 @@
                 </div><!--div body-->
             </div><!--div default-->
         </div><!--div col-->
-        <div class="col-xs-12 col-md-6" style="border: 1px solid black">
+        <div class="col-10 col-md-5" style="border: 1px solid black">
             <div class="panel panel-default">
                 <div class="panel-heading">
                   <h3 class="panel-title">Commentaires</h3>
                 </div><!--div heading-->
                 <div class="panel-body">
-                  <p><strong>Sophie D. :</strong> "Une expérience exceptionnelle ! Le Lotus Royal m'a transportée en Thaïlande avec ses saveurs authentiques et son ambiance élégante. Le Tom Yum était épicé à souhait, et le service était impeccable. Une soirée parfaite !"<br>
-                    <strong>Lucas B. :</strong> "J'ai eu la chance de découvrir ce trésor culinaire thaïlandais à Bruxelles. Le Pad Thai était délicieux, et le décor m'a fait me sentir comme un invité de la royauté. Le Lotus Royal mérite vraiment ses éloges !"<br>
-                    <strong>Isabelle P. :</strong> "Un vrai bijou caché ! Ce restaurant m'a fait redécouvrir la cuisine thaïlandaise. Le curry au poulet était divin, et le personnel était attentionné et souriant. Une expérience gastronomique à ne pas manquer."<br>
-                    <strong>Antoine G. :</strong> "Le Lotus Royal est un véritable joyau de Bruxelles. J'ai adoré chaque bouchée de mon repas ici. Les saveurs étaient authentiques, et l'ambiance était apaisante. J'y retournerai certainement !"<br>
+                  <p><strong>Sophie D. :</strong> "Une expérience exceptionnelle ! Le Lotus Royal m'a transportée en Thaïlande avec ses saveurs authentiques et son ambiance élégante. Le Tom Yum était épicé à souhait, et le service était impeccable. Une soirée parfaite !"<br><br>
+                    <strong>Lucas B. :</strong> "J'ai eu la chance de découvrir ce trésor culinaire thaïlandais à Bruxelles. Le Pad Thai était délicieux, et le décor m'a fait me sentir comme un invité de la royauté. Le Lotus Royal mérite vraiment ses éloges !"<br><br>
+                    <strong>Isabelle P. :</strong> "Un vrai bijou caché ! Ce restaurant m'a fait redécouvrir la cuisine thaïlandaise. Le curry au poulet était divin, et le personnel était attentionné et souriant. Une expérience gastronomique à ne pas manquer."<br><br>
+                    <strong>Antoine G. :</strong> "Le Lotus Royal est un véritable joyau de Bruxelles. J'ai adoré chaque bouchée de mon repas ici. Les saveurs étaient authentiques, et l'ambiance était apaisante. J'y retournerai certainement !"<br><br>
                     <strong>Emma L. :</strong> "Un dîner au Lotus Royal est comme un voyage en Thaïlande sans quitter Bruxelles. Les plats étaient incroyables, et le décor était tellement élégant. C'est mon nouveau restaurant préféré dans la ville !"</p>
                 </div><!--div body-->
             </div><!--div default-->
         </div><!--div col-->
     </div><!--div row-->
-
-</body>
+  </body>
+  <footer>
+    <div class="row bg-danger">
+      <div class="col-10">salut</div>
+    </div>
+  </footer>
 </html>
